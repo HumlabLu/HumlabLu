@@ -3,7 +3,7 @@ https://portal.research.lu.se/portal/en/projects/the-langtrackapp-studying-expos
 ### Lund university Humanities Lab
 https://www.humlab.lu.se/about/
 
-LTA is developed at Humlab Lund university 2020 - 2021 and is a tool for presenting surveys in participants' mobile phones. 
+LTA is developed at Humanities Lab Lund university 2020 - 2021 and is a tool for presenting surveys in participants' mobile phones. 
 LTA consists of three repositories: 
 #### Web app
 an admin web app where administrators manage participants, surveys and collected data
