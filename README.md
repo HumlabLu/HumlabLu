@@ -8,9 +8,9 @@ LTA consists of three repositories:
 #### Web app
 an admin web app where administrators manage participants and surveys
 #### LangTrackAppIphone
-written in Swift and is installed on a participants iPhone
+written in Swift using Xcode
 #### LangTrackAppAndroid 
-written in Kotlin and is installed on a participants Android phone
+written in Kotlin using Android Studio
 
 <!--
 **HumlabLu/HumlabLu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
