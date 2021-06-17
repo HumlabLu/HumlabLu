@@ -7,9 +7,9 @@ LTA is developed at Humlab Lund university 2019 - 2021 and is a tool for present
 LTA consists of three repositories: 
 #### Web app
 an admin web app where administrators manage participants and surveys
-#### iOS app
-written in Swift and is installed on a participants iOS phone
-#### Android app 
+#### LangTrackAppIphone
+written in Swift and is installed on a participants iPhone
+#### LangTrackAppAndroid 
 written in Kotlin and is installed on a participants Android phone
 
 <!--
