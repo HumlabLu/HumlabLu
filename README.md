@@ -12,6 +12,9 @@ written in Swift using Xcode
 #### LangTrackAppAndroid 
 written in Kotlin using Android Studio
 
+To use LTA's code base and build your own survey service, you also need a backend. We used our own server at LU for the web app and data management, but it is also possible to use a cloud service for this.
+Google Cloud Platform is used for authentication, firebase and cloud messaging for push notifications to the apps so a google developer account will also be needed
+
 <!--
 **HumlabLu/HumlabLu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
