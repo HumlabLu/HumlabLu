@@ -52,7 +52,7 @@ Push notification     |  Header	|  Question	|  Footer
 The following question types can be used in the survey
 
 
- | | Type      | Code |
+ | Icon | Type      | Code |
 | ----------- | ----------- | ----------- |
  | no icon| Header      | header |
 | <img src="/icons/lta_single.png" width="50" height="50"> | Single multiple answer      | single |
