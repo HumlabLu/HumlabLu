@@ -10,6 +10,7 @@
 4. [Example survey](/ExampleSurvey.md)
 5. [Links](#links)
 5. [License](#Licensing)
+6. [NOTIICE](/NOTICE.md)
 
 #
 
