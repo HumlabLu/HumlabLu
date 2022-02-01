@@ -37,4 +37,4 @@ Principal Investigators (PI) of research projects need to balance the responsibi
 - [Lund university Humanities Lab](https://www.humlab.lu.se/about/)
 
 ### Licensing
-LANG-TRACK-APP is licensed under the Apache License, Version 2.0. See [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) for the full license text.
+LANG-TRACK-APP is licensed under the [Apache License, Version 2.0.](https://www.apache.org/licenses/LICENSE-2.0.txt)
