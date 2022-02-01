@@ -44,7 +44,7 @@ The result of this config is as follows
 
 Push notification     |  Header	|  Question	|  Footer
 :------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.ibb.co/9rz1BFL/IMG-0518.jpg)  |  ![](https://i.ibb.co/10zJnV0/IMG-0515.jpg) |  ![](https://i.ibb.co/Fmf7c8c/IMG-0516.jpg) |  ![](https://i.ibb.co/3fX9x0G/IMG-0517.jpg)
+![](/screenshots/IMG_0518.jpg)  |  ![](/screenshots/IMG_0515.jpg) |  ![](/screenshots/IMG_0516.jpg) |  ![](/screenshots/IMG_0517.jpg)
 
 ---
 
