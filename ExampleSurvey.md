@@ -55,7 +55,7 @@ The following question types can be used in the survey
  | | Type      | Code |
 | ----------- | ----------- | ----------- |
  | no icon| Header      | header |
-| <img src="#icons/lta-single.png" width="50" height="50"> | Single multiple answer      | single |
+| <img src="/icons/lta-single.png" width="50" height="50"> | Single multiple answer      | single |
 | <img src="https://i.ibb.co/FYcKzqh/lta-multi.png" width="50" height="50">| Multiple choice   | multi  |
 | <img src="https://i.ibb.co/FHP1Fgw/lta-likert.png" width="50" height="50">| Likert scale   | likert  |
 | <img src="https://i.ibb.co/N1Dr84b/lta-open.png" width="50" height="50">| Open ended text responses   | open  |
