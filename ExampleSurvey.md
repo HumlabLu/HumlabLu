@@ -56,13 +56,13 @@ The following question types can be used in the survey
 | ----------- | ----------- | ----------- |
  | no icon| Header      | header |
 | <img src="/icons/lta_single.png" width="50" height="50"> | Single multiple answer      | single |
-| <img src="/icons/lta-multi.png" width="50" height="50">| Multiple choice   | multi  |
-| <img src="/icons/lta-likert.png" width="50" height="50">| Likert scale   | likert  |
-| <img src="/icons/lta-open.png" width="50" height="50">| Open ended text responses   | open  |
-| <img src="/icons/lta-blanks.png" width="50" height="50">| Fill in the blank   | blanks  |
-| <img src="/icons/lta-slider.png" width="50" height="50">| Slider scale   | slider  |
-| <img src="/icons/lta-duration.png" width="50" height="50">| Time duration   | duration  |
-| <img src="/icons/lta-footer.png" width="50" height="50">| Footer      | footer  |
+| <img src="/icons/lta_multi.png" width="50" height="50">| Multiple choice   | multi  |
+| <img src="/icons/lta_likert.png" width="50" height="50">| Likert scale   | likert  |
+| <img src="/icons/lta_open.png" width="50" height="50">| Open ended text responses   | open  |
+| <img src="/icons/lta_blanks.png" width="50" height="50">| Fill in the blank   | blanks  |
+| <img src="/icons/lta_slider.png" width="50" height="50">| Slider scale   | slider  |
+| <img src="/icons/lta_duration.png" width="50" height="50">| Time duration   | duration  |
+| <img src="/icons/lta_footer.png" width="50" height="50">| Footer      | footer  |
 
 
 ---
