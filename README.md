@@ -34,3 +34,6 @@ Principal Investigators (PI) of research projects need to balance the responsibi
 ### Links
 - [Lang Track App](https://portal.research.lu.se/portal/en/projects/the-langtrackapp-studying-exposure-to-and-use-of-a-new-language-using-smartphone-technology(4e734940-981f-4dd0-841a-eb6ac760af0c).html)
 - [Lund university Humanities Lab](https://www.humlab.lu.se/about/)
+
+### Licensing
+LANG-TRACK-APP is licensed under the Apache License, Version 2.0. See [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) for the full license text.
