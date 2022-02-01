@@ -1,5 +1,5 @@
 ﻿
-<img src="/icons/langtrackappicon.png" width="50" height="50">
+<img src="/icons/langtrackappicon.png" width="150" height="150">
 
 # The LANG-TRACK-APP
 
