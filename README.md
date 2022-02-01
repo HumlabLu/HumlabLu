@@ -6,7 +6,7 @@
 #### Table of Contents
 1. Overview (this document)
 2. [Web app, server and database](#example2)
-3. [Mobile apps and Firebase](#third-example)
+3. [Mobile apps and Firebase](#LTAMobileApps.md)
 
 ### Introduction
 
