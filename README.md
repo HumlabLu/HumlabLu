@@ -5,7 +5,7 @@
 
 #### Table of Contents
 1. Overview (this document)
-2. [Web app, server and database](#why--develop-the-lta)
+2. [Web app, server and database](/LTABackend.md)
 3. [Mobile apps and Firebase](/LTAMobileApps.md)
 4. [Example survey](/ExampleSurvey.md)
 5. [Links](#links)
