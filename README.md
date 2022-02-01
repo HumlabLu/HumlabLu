@@ -8,7 +8,7 @@
 2. [Web app, server and database](#why--develop-the-lta)
 3. [Mobile apps and Firebase](/LTAMobileApps.md)
 4. [Example survey](/ExampleSurvey.md)
-4. [Links](/ExampleSurvey.md)
+4. [Links](#links)
 
 ### Introduction
 
