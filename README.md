@@ -5,7 +5,7 @@
 
 #### Table of Contents
 1. Overview (this document)
-2. [Web app, server and database](#Why develop the LTA?)
+2. [Web app, server and database](#why--develop-the-lta)
 3. [Mobile apps and Firebase](/LTAMobileApps.md)
 
 ### Introduction
