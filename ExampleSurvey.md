@@ -175,6 +175,6 @@ The following question types can be used in the survey
       ]
     }
  
-***- A survey **must** start with a header and end with a footer.
-- All objects in a survey **must** contain an index, header is index 0.
-- Skip precedes includeIf.***
+ - A survey **must** start with a header and end with a footer. 
+ - All objects in a survey **must** contain an index, header is index 0.
+ - Skip precedes includeIf.
