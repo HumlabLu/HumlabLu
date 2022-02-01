@@ -10,6 +10,8 @@
 4. [Example survey](/ExampleSurvey.md)
 4. [Links](#links)
 
+#
+
 ### Introduction
 
 The LANG-TRACK-APP (LTA) was developed in the context of a research project on [Second Language Acquisition](https://en.wikipedia.org/wiki/Second-language_acquisition) (SLA). SLA is the field of research studying the process of learning additional languages in different settings across the age span.
