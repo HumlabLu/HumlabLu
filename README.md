@@ -1,5 +1,5 @@
 ﻿
-<img src="/icons/LTA_icon_metall.png" width="250" height="250">
+<img src="/icons/LTA_icon_metall.png" width="150" height="150">
 
 # The LANG-TRACK-APP
 
