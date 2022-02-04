@@ -35,7 +35,7 @@ Principal Investigators (PI) of research projects need to balance the responsibi
 3.  By developing the LTA rather than relying on a third party provider of similar services, we also allowed for customised adaptations of the application, data flow and data management specific to the overall project aims and needs. By allowing researchers to control there can be greater flexibility and more time-aligned adaptations than what is otherwise possible.
 ### Links
 - [Lang Track App](https://portal.research.lu.se/portal/en/projects/the-langtrackapp-studying-exposure-to-and-use-of-a-new-language-using-smartphone-technology(4e734940-981f-4dd0-841a-eb6ac760af0c).html)
-- [Lund university Humanities Lab](https://www.humlab.lu.se/about/)
+- [Lund University Humanities Lab](https://www.humlab.lu.se/about/)
 
 ### Licensing
 LANG-TRACK-APP is licensed under the [Apache License, Version 2.0.](https://www.apache.org/licenses/LICENSE-2.0.txt)
