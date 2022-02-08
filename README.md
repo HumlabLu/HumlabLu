@@ -6,11 +6,12 @@
 #### Table of Contents
 1. Overview (this document)
 2. [Web app, server and database](/LTABackend.md)
-3. [Mobile apps and Firebase](/LTAMobileApps.md)
-4. [Example survey](/ExampleSurvey.md)
-5. [Links](#links)
-5. [License](#Licensing)
-6. [NOTICE](/NOTICE.txt)
+3. [Firebase](/Firebase.md)
+4. [Mobile apps](/LTAMobileApps.md)
+5. [Example survey](/ExampleSurvey.md)
+6. [Links](#links)
+7. [License](#Licensing)
+8. [NOTICE](/NOTICE.txt)
 
 #
 
