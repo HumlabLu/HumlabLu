@@ -5,8 +5,8 @@
 
 #### Table of Contents
 1. Overview (this document)
-2. [Web app, server and database](/LTABackend.md)
-3. [Firebase](/Firebase.md)
+2. [Firebase](/Firebase.md)
+3. [Web app, server and database](/LTABackend.md)
 4. [Mobile apps](/LTAMobileApps.md)
 5. [Example survey](/ExampleSurvey.md)
 6. [Links](#links)
