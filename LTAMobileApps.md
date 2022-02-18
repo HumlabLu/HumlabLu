@@ -2,8 +2,8 @@
 #### *iPhone and  Android app*
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 [![Generic badge](https://img.shields.io/badge/iOS-Swift-orange.svg)](https://developer.apple.com/swift) [![Generic badge](https://img.shields.io/badge/Android-Kotlin-lightblue.svg)](https://kotlinlang.org/) [![Generic badge](https://img.shields.io/badge/IDE-Xcode-blue.svg)](https://developer.apple.com/xcode/) [![Generic badge](https://img.shields.io/badge/IDE-AndroidStudio-green.svg)](https://developer.android.com/studio)
-/
-Click [here](https://github.com/HumlabLu/LangTrackAppAndroid) to go to Android repo. 
+<br/>
+Click [here](https://github.com/HumlabLu/LangTrackAppAndroid) to go to Android repo. <br/>
 Click [here](https://github.com/HumlabLu/LangTrackAppIphone) to go to iPhone repo. 
 
 ## Apps
