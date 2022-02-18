@@ -4,7 +4,8 @@
 # The LANG-TRACK-APP
 
 #### Table of Contents
-1. Overview (this document)
+1. Project Overview (this document)
+2. [Platform Overview](/PlatformOverview.md)
 2. [Firebase](/Firebase.md)
 3. [Web app, server and database](/LTABackend.md)
 4. [Mobile apps](/LTAMobileApps.md)
