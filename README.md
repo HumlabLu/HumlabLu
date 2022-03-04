@@ -41,3 +41,18 @@ Principal Investigators (PI) of research projects need to balance the responsibi
 
 ### Licensing
 LANG-TRACK-APP is licensed under the [Apache License, Version 2.0.](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+### Disclaimer
+We are happy to share our software for your usage. But this is not an off-the-shelf software, nor an actively maintained or publicly supported open source project. Making everything spin up and function for your project, is a job of itself, with software development and hosting skills required. 
+
+This project and these instructions are provided purely for documented reproducibility of research. 
+
+On top of having to be able to complete all the above steps yourself, you may also have to be able to go beyond it, be able to change features, fix bugs, and correct or adjust mistakes or designs we have made on the way.
+
+The authors of this project and these instructions are not liable for any errors of method or any losses of data, or anything else you may suffer, by following these instructions. 
+
+We are not able to help non-partners with technical support for their projects.
+
+This project and these instructions may be updated and change over time.
+
+
