@@ -1,4 +1,4 @@
-# What you need
+# What you need for the Server side
 
 To get started, you need to have these things already set up.
 
