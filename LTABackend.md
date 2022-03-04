@@ -1,3 +1,21 @@
+# Lang-Track-App Backend
+
+In this readme file you can learn about how to get the back-end server and its web app and web service of  **LTA, the Lang-Track-App**, up and spinning. 
+
+## Supporting tools and components
+ 
+ * **Firebase** for user authentication
+ * **PlayStore**, **App Store**, **TestFlight**, for app distribution.
+ * **Docker** for containerization of the Web Service and the Web App, and for infra for routing and the database. Dockerized components used are also:
+	 * **NginX** for routing and https
+	 * **MongoDB** for storing all survey data and anonymous collected data
+
+## Container and network overview
+![cointainer_network](https://i.imgur.com/5z1qp4D.png)
+
+
+
+
 # What you need for the Server side
 
 To get started, you need to have these things already set up.
