@@ -5,15 +5,12 @@ In this readme file you can learn about how to get the back-end server and its w
 ## Supporting tools and components
  
  * **Firebase** for user authentication
- * **PlayStore**, **App Store**, **TestFlight**, for app distribution.
  * **Docker** for containerization of the Web Service and the Web App, and for infra for routing and the database. Dockerized components used are also:
 	 * **NginX** for routing and https
 	 * **MongoDB** for storing all survey data and anonymous collected data
 
 ## Container and network overview
 ![cointainer_network](https://i.imgur.com/5z1qp4D.png)
-
-
 
 
 # What you need for the Server side
@@ -39,9 +36,9 @@ These GitHub repos contain the Web Service component and the Web App components.
 * The Web Service repo, and the Web App repo, cloned down to your machine.
 
 ## A Firebase account
-To authenticate both as an administrator web user, and as a smartphone end user, Firebase users are used. Firebase is simply used as an identity provider, and you can create your users anonymously. 
+See [the firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Firebase.md). 
 
-To create the Users, you need a Firebase account. The same account should be used for authentication both for back-end (this readme) and for the iOS/Android clients ([the LTA readme](https://github.com/HumlabLu/HumlabLu#readme)).
+The same account should be used for authentication both for back-end (this readme) and for the iOS/Android clients.
 
 # Get it spinning
 This guide takes you forward in sections. You need to complete all sections to be able to submit, schedule, and publish, any surveys.
