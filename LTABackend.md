@@ -86,42 +86,11 @@ Also see [the firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Fire
 In Chrome, navigate to `<yourdomain>`. It should show you a webpage where you can log in with an _admin_ user.
 ![enter image description here](https://i.imgur.com/yy1dh7g.png)
 
+Try a full user journey for both participants and researchers, by following the stesps in [Try it](https://github.com/HumlabLu/HumlabLu/blob/main/try-it.md).
+
 ## 404?
 Trouble shooting, you could:
 * From Chrome or Postman on eg your dev machine, call  `<yourdomain>/api/ping`. This is an unauthenticated API endpoint that should always reply `pong`, independent from authentication and DB. If this works, and other things does not work, the networking and routing is working, and the problem is not that the web service is not serving, but perhaps a problem in authentication or in the db.
 * From the VM terminal, `curl <yourdomain>:80/api/ping` . If this works from the VM, but calling it over the internet does not, there is a problem in the network setup.
-
-## Try it
-
-1. On a smartphone LTA app, log in with `<youruser>` and close the app.
-2. On a the web app, log in with `<youradminuser>`. (It could be the same as `<youruser>` if you specified `<youruser>` as an admin.)
-3. Submit a survey config (you can copy-paste the example file ***! TODO example file*** next to this readme file).
-4. On the page of the newly created survey, schedule a series to a `<youruser>` eg starting and ending today, with one assignment at the time of right now, and one 30 minutes forward.
-5. Within 20 seconds from you scheduling the series, you should have a notification on your phone.
-6. Upon pressing the notification, the app opens, and in the app, in the list of assignments, find the first assignment of your scheduled series.
-7. Complete the assignment, and submit it.
-8. In the web app, on the page of `<youruser>`, see the list of assignments that are scheduled from the series you just created.
-9. See that the _Track_ and _Notif_ fields has been gotten updated from your first assignment. It should now have
-	*  one notification (the reminder notification is not there if you completed it well in time),
-	* a record of you opening it, and
-	* a dataset with your answers.
-10. On the survey, press *Generate CSV* , or `curl <yourdomain>/api/survey/<survey_id>/datasets/csv` a for JSON file.  
-
-# Before going live
-## External backup
-The dockerfile points the db folder to `/db/live`. In `/db/backup/` you can stow away live data locally, so that your external backup system (slower) does not have to read live data.
-
-1. Create a script `zip_and_clean.sh` to copy from the live folder into  `<yourfolder>/db/backup`,  eg like this, with rolling removal on 10 days:
-```
-sudo tar -zcvf "/home/<yourfolder>/db/backup/db-$(date +"%Y-%m-%d %H%M%S").tar.gz" /home/<yourfolder>/db/live/
-
-find '/home/jo3302gr/db/backup/' -name 'db-*.tar.gz' -mtime +10 -type f -delete
-```
-3. Create a cron job to run it, eg like this, every morning at 00:30 AM.
-```
-30 0 * * * /home/<yourfolder>/db/backup/zip_and_clean.sh >  /home/<yourfolder>/db/backup/cron.log
-```
-4. Point your external backup system to `<yourfolder>/db/backup` 
-5. Schedule your (nightly) external backup to 30 min after your cron job.
 
 
