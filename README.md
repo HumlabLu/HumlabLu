@@ -10,9 +10,10 @@
 3. [Web app, server and database](/LTABackend.md)
 4. [Mobile apps](/LTAMobileApps.md)
 5. [Example survey](/ExampleSurvey.md)
-6. [Links](#links)
-7. [License](#Licensing)
-8. [NOTICE](/NOTICE.txt)
+6. [External backup](/External-backup.md)
+7. [Links](#links)
+8. [License](#Licensing)
+9. [NOTICE](/NOTICE.txt)
 
 #
 
