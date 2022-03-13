@@ -51,12 +51,14 @@ When completed, your LTA server is ready for live, online, usage for your own su
 If you rather want to play around with the back-end only, locally on your dev machine, without making it live online for smartphone users, you can too, with some small changes to code, scripts, and steps. This readme does however not cater directly to that sub-scenario.
 
 ## Firebase
-1. In the firebase web console, create anonymous user names per study, and admin user names, eg `s1_abc_123` and `adm_def_456`, and secure passwords for each user. ***!TODO link to LTA readme # firebase instead***
-3. Specify admin user names (eg `adm_def_456`) in the constant `ADMIN_USERNAMES` in the Web Service config file `surveyApi.constants.ts`.
-4. Generate a JSON file with a private key that the Web Service can use, see [initialize the SDK](https://firebase.google.com/docs/admin/setup#initialize-sdk) in the firebase documentation.
-5. Add your JSON credentials file to the Web Service build by
-	*  putting it in the `constants` folder. ***! TODO remove ours from public repo***
-	* initialising the `serviceAccount` variable with the path to your credential file in the `firebaseAdmin.service.ts` file. 
+Also see [the firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Firebase.md). 
+
+1. In the Web Service config file `constants\surveyApi.constants.ts`, initialize the constant `ADMIN_USERNAMES` with the admin user names you created (eg `adm_def_456`).
+4. In the Firebase console, generate a JSON credentials file with a private key that the Web Service can use, see [initialize the SDK](https://firebase.google.com/docs/admin/setup#initialize-sdk) in the firebase documentation.
+5. Add your JSON credentials file with your own firebase project's private key, to the Web Service source code. 
+	* See the `constants\PROJECT-firebase-adminsdk-ID.json.sample` credentials sample file. This is just a sample file, that you can remove if you want to.
+	* Put your own file in the `constants` folder.
+	* In the `firebaseAdmin.service.ts` file, set the path to your credentials json file, to initialise the `serviceAccount` variable.  
 
 ## HTTPS
 1. From your HTTPS certificate, find or generate a `.pem` and a `.key` file, alternatively a `.crt` bundle file and a `.key` file. Providers often have support documentation online for how to generate them.
