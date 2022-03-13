@@ -11,9 +11,10 @@
 4. [Mobile apps](/LTAMobileApps.md)
 5. [Example survey](/ExampleSurvey.md)
 6. [External backup](/External-backup.md)
-7. [Links](#links)
-8. [License](#Licensing)
-9. [NOTICE](/NOTICE.txt)
+7. [Try it](/try-it.md)
+8. [Links](#links)
+9. [License](#Licensing)
+10. [NOTICE](/NOTICE.txt)
 
 #
 
