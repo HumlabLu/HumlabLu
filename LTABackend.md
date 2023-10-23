@@ -51,8 +51,8 @@ If you rather want to play around with the back-end only, locally on your dev ma
 Also see [the firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Firebase.md). 
 
 1. In the Web Service config file `constants\surveyApi.constants.ts`, initialize the constant `ADMIN_USERNAMES` with the admin user names you created (eg `adm_def_456`).
-4. In the Firebase console, generate a JSON credentials file with a private key that the Web Service can use, see [initialize the SDK](https://firebase.google.com/docs/admin/setup#initialize-sdk) in the firebase documentation.
-5. Add your JSON credentials file with your own firebase project's private key, to the Web Service source code. 
+2. In the Firebase console, generate a JSON credentials file with a private key that the Web Service can use, see [initialize the SDK](https://firebase.google.com/docs/admin/setup#initialize-sdk) in the firebase documentation.
+3. Add your JSON credentials file with your own firebase project's private key, to the Web Service source code. 
 	* See the `constants\PROJECT-firebase-adminsdk-ID.json.sample` credentials sample file. This is just a sample file, that you can remove if you want to.
 	* Put your own file in the `constants` folder.
 	* In the `firebaseAdmin.service.ts` file, set the path to your credentials json file, to initialise the `serviceAccount` variable.  
@@ -70,6 +70,8 @@ System-specific setup:
 3. In `docker-compose.yml`, replace the image name with your own user like so: `image: $YOU/lta-api:latest`.
 4. In `package.json`, set `main` to `src/server.ts` (the actual entry point to the program).
 	* Some dependencies may need updating.
+5. In `src/constants/surveyApi.constants.ts`, set `WEBAPP_URL` to your own domain.
+	- Also set `MONGO_URL` to `mongodb://mongodb:27017/Survey` if running the application from a Docker container (most likely).
 
 Generating a docker image:
 
