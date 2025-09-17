@@ -1,6 +1,8 @@
-This software has been developed by Lang Track App Humanities Lab Lund University.
+The Lang-Track-App software was developed by the Lund University Humanities Lab. 
 
-Arndt, H. L., Granfeldt, J., & Gullberg, M. (in press). 
-Reviewing the potential of the Experience Sampling Method (ESM) for capturing second language exposure and use. 
-Second Language Research. 
-https://doi. org/10.1177/0267658321102005
+The following references should be included in any software adaptations and related publications: 
+
+Arndt, H. L., Granfeldt, J., & Gullberg, M. (2023). The Lang‐Track‐App: Open‐Source Tools for Implementing the Experience Sampling Method in Second Language Acquisition Research. Language Learning, 73(3), 869–903. https://doi.org/10.1111/lang.12555 
+
+Arndt, H.L., Björck, S., Granfeldt, J., Granqvist, J. & Gullberg, M. (2023). The Lang-Track-App (Version #) [mobile and web software]. 
+Lund University Humanities Lab. https://github.com/HumlabLu/HumlabLu 
