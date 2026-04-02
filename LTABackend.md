@@ -51,18 +51,30 @@ If you rather want to play around with the back-end only, locally on your dev ma
 Also see [the firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Firebase.md). 
 
 1. In the Web Service config file `constants\surveyApi.constants.ts`, initialize the constant `ADMIN_USERNAMES` with the admin user names you created (eg `adm_def_456`).
-4. In the Firebase console, generate a JSON credentials file with a private key that the Web Service can use, see [initialize the SDK](https://firebase.google.com/docs/admin/setup#initialize-sdk) in the firebase documentation.
-5. Add your JSON credentials file with your own firebase project's private key, to the Web Service source code. 
+2. In the Firebase console, generate a JSON credentials file with a private key that the Web Service can use, see [initialize the SDK](https://firebase.google.com/docs/admin/setup#initialize-sdk) in the firebase documentation.
+3. Add your JSON credentials file with your own firebase project's private key, to the Web Service source code. 
 	* See the `constants\PROJECT-firebase-adminsdk-ID.json.sample` credentials sample file. This is just a sample file, that you can remove if you want to.
 	* Put your own file in the `constants` folder.
 	* In the `firebaseAdmin.service.ts` file, set the path to your credentials json file, to initialise the `serviceAccount` variable.  
 
 ## HTTPS
 1. From your HTTPS certificate, find or generate a `.pem` and a `.key` file, alternatively a `.crt` bundle file and a `.key` file. Providers often have support documentation online for how to generate them.
-2. Place the ***! TODO where to place it***
-3. Edit the `/nginx_config/default.conf` to match your `.pem` and `.key` file names, alternatively your  `.crt` bundle and a `.key`.
+2. Edit the `/nginx_config/default.conf` to match your `.pem` and `.key` file names, alternatively your `.crt` bundle and a `.key`.
+3. Move the files over to the VM by eg a `scp` command to `<yourfolder>/src/cert`
 
 ## Web Service
+System-specific setup:
+
+1. In `src/services/surveyApi.service.ts`, replace all instances of `@humlablu.com` with your own email service's domain.
+2. In `src/services/firebaseAdmin.service.ts`, replace the `databaseURL` with your own Firebase database link (see [the Firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Firebase.md#web-api) for details)
+3. In `docker-compose.yml`, replace the image name with your own user like so: `image: $YOU/lta-api:latest`.
+4. In `package.json`, set `main` to `src/server.ts` (the actual entry point to the program).
+	* Some dependencies may need updating.
+5. In `src/constants/surveyApi.constants.ts`, set `WEBAPP_URL` to your own domain.
+	- Also set `MONGO_URL` to `mongodb://mongodb:27017/Survey` if running the application from a Docker container (most likely).
+
+Generating a docker image:
+
 1. Go to the `surveyApi` path on your dev machine with a terminal window
 2. Build the docker image by `docker build -t <yourname>/lta-api .`
 3. Pack the docker image by `docker save -o ./docker-lta-api-<yourversion>.tar <yourname>/lta-api`
@@ -71,10 +83,20 @@ Also see [the firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Fire
 7. On the VM, load the package as a docker image by `docker load -i docker-lta-api-<yourversion>.tar`
 
 ## Web App
+System-specific setup:
+
+1. In `src/main.js`, change the contents of `firebaseConfig` to your own Firebase information (see [the Firebase page](https://github.com/HumlabLu/HumlabLu/blob/main/Firebase.md#web-app) for details)
+1. In `src/http-common.js`, change the `baseURL` to the domain you will be hosting at app on.
+2. In `src/router.js`, remove the `/` alias from the `/surveys` object and add it to the `/login` one (this will make the login page the default).
+3. In `nginx_config/default.conf`, change `server_name`, `ssl_certificate`, and `ssl_certificate_key` to the values you will be using.
+
+Generating a docker image:
+
 1. Go to the `webapp` path with a terminal window
 2. Build the docker image by `docker build -t <yourname>/lta-webapp .`
 3. Pack the docker image by `docker save -o ./docker-lta-webapp-<yourversion>.tar <yourname>/lta-api`
 4. Move that tar over to the VM by eg a `scp` command. Place it in `<yourfolder>/src`.
+	* You may need to `chown` it to your own user first.
 6. SSH to the VM
 7. On the VM, load the package as a docker image by `docker load -i docker-lta-webapp-<yourversion>.tar`
 
